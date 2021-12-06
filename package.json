@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-starter-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Gatsby starter with no plugins and a single welcome page.",
+  "author": "Laurie Barth",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "@material-ui/core": "^4.11.2",
+    "dotenv": "^8.2.0",
+    "formik": "^2.2.6",
+    "gatsby": "^2.26.1",
+    "gatsby-source-graphql": "^2.11.0",
+    "graphql-tag": "^2.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "shortid": "^2.2.16",
+    "yup": "^0.32.8"
+  }
+}
