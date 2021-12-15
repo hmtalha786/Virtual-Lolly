@@ -1,10 +1,10 @@
-import React, { useRef, useState } from "react"
-import Header from "../components/header"
-import Lolly from "../components/lolly"
-import { useQuery, useMutation } from "@apollo/client"
-import { TextField, Button, Container } from "@material-ui/core"
-import gql from "graphql-tag"
-import { navigate } from "gatsby"
+import React, { useRef, useState } from "react";
+import Header from "../components/header";
+import Lolly from "../components/lolly";
+import { useQuery, useMutation } from "@apollo/client";
+import { TextField, Button, Container } from "@material-ui/core";
+import gql from "graphql-tag";
+import { navigate } from "gatsby";
 
 const ADD_LOLLY = gql`
   mutation createLolly(

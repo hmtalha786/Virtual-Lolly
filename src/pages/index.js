@@ -1,7 +1,7 @@
-import React from "react"
-import Lolly from '../components/lolly'
-import Header from '../components/header/header'
-import { navigate } from 'gatsby'
+import React from "react";
+import Lolly from '../components/lolly';
+import Header from '../components/header';
+import { navigate } from 'gatsby';
 
 export default function Home() {
   return (

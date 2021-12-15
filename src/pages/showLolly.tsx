@@ -1,12 +1,12 @@
-import React from "react"
-import Lolly from "../components/lolly"
-import { useQuery, gql } from "@apollo/client"
-import { useQueryParam } from "gatsby-query-params"
-import Header from "../components/header"
-import { Container, Link } from "@material-ui/core"
-import { makeStyles } from "@material-ui/core/styles"
-import { navigate } from "gatsby"
-import Loader from "../components/loader"
+import React from "react";
+import Lolly from "../components/lolly";
+import { useQuery, gql } from "@apollo/client";
+import { useQueryParam } from "gatsby-query-params";
+import Header from "../components/header";
+import { Container, Link } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import { navigate } from "gatsby";
+import Loader from "../components/loader";
 
 const useStyles = makeStyles(theme => ({
   root: {
