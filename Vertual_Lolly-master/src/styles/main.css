@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #21212b;
+    
+}
+.heading_div{
+    margin: 0px;
+    margin-top: 0px;
+}
+.heading{
+    font-weight:580 !important;
+    font-style:normal;
+    text-decoration:none solid rgb(255, 255, 255);
+    font-family :'Yellowtail', cursive;
+    letter-spacing: 1px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: #fa73d9 0 0 8px;
+    line-height: 80px;
+    /* transition: 1s ease-in; */
+    cursor: pointer;
+}
+.heading:hover{
+    text-shadow: #f858d0 0 0 20px !important;
+}
+.paragraph{
+    text-shadow: #fa73d9 0 0 8px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.lolly_main_div{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    margin: 50px auto;
+    
+}
+.lolly_main_div .lollipop{
+    max-height: 310px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.send_lolly_btn_div{
+    text-align: center;
+    margin: 0px auto;
+}
+.send_lolly_btn{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    color: #fa73d9;
+    background-color: #21212b;
+    font-style: normal !important;    
+    font-size: 15px;
+    border-color: #fa73d9;
+    box-shadow: #fa73d9 0 0 8px;
+    transition: 0.3s ease-in-out !important;
+    cursor: pointer;
+    outline: none;
+}
+
+.send_lolly_btn:hover{
+    background-color:  #fa73d9;
+    color: black;
+
+}
+
+/* Work For Create Lolly  */
+.create_lolly_div{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.lolly_input_div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    width: 400px;
+}
+.input_div{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -45px;
+    /* border: 1px solid red; */
+
+}
+.colorPickerLabel{
+    width: 40px;
+    height: 40px;
+    border-radius: 70% !important;
+    overflow: hidden;
+    margin: 20px;
+    /* border: 1px solid red; */
+}
+
+.colorPicker{
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid red; */
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.message_input_div{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    background-color: #16151b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.to_input{
+    width: 350px;
+    margin: auto !important;
+    padding-bottom: 10px;
+    color: #e2d6d6;
+}
+.to_input label{
+    color: rgb(141, 138, 138) !important
+}
+.to_message{
+    width: 350px;
+    margin:  auto !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    color: #e2d6d6;
+}
+
+#textarea{
+    background-color: #222222 !important;
+    box-shadow: #fa73d9 0 0 8px;
+    color: white !important;
+}
+
+#input{
+    background-color: #222222 !important;
+    box-shadow: #fa73d9 0 0 8px;
+    color: white !important;
+
+
+}
+.to_from{
+    width: 350px;
+    margin: auto !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #e2d6d6;
+}
+.to_from label{
+    color: rgb(141, 138, 138) !important
+    
+}
+
+.send_lolly_btn_div2{
+    text-align: center;
+    margin-top: 30px;
+}
+.send_lolly_btn2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    color: #fa73d9;
+    background-color: #21212b;
+    font-style: normal !important;    
+    font-size: 15px;
+    border-color: #fa73d9;
+    box-shadow: #fa73d9 0 0 8px;
+    transition: 0.3s ease-in-out !important;
+    cursor: pointer;
+    outline: none;
+}
+.send_lolly_btn2:hover{
+    background-color:  #fa73d9;
+    color: black;
+
+}
+.showlolly_main_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+}
+.message_div{
+    background-color: #16151b;
+    width: 450px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+.path_msg_div{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    
+}
+
+.path_msg_link{
+    /* border: 1px solid red; */
+    background-color: black;
+    color: #802968;
+    text-align: center;
+    box-shadow: black 0 0 8px;
+    
+}
+.path_msg_link pre{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.show_recipient_name{
+    font-family :'Yellowtail', cursive;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+    text-shadow: -7px -1px 24px rgba(0, 0, 0, 1);
+    padding-left: 25px;
+}   
+.show_get_message{
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+
+}
+.show_sender_name{
+    color: white;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-shadow: -7px -1px 20px rgba(0, 0, 0, 1);
+    padding-left: 80px;
+    font-family :'Yellowtail', cursive;
+
+}
+.show_lolly_para{
+    /* width: 600px; */
+    text-align: center;
+    /* margin: 20px auto; */
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    width: 100%;
+    justify-content: center;
+}
+.show_lolly_para p{
+    color: rgb(197, 197, 197);
+}
+
+.loader {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+}
+
+@media (max-width:481px){
+    .lolly_main_div .lollipop{
+        max-width: 600px !important;
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .heading{
+        font-size: 40px;
+    }
+}
+@media (max-width:806px){
+    .create_lolly_div{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    .input_div{
+        /* border: 1px solid yellow; */
+        flex-direction: row !important;
+        display: flex;
+        margin-top: 20px;
+
+    }
+    .lolly_input_div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lolly{
+        display: flex;
+        justify-content: center;
+    }
+    .create_lolly_div{
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+    }
+    .showlolly_main_div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .show_lolly_para{
+        margin: 20px auto;
+    }
+    .path_msg_div{
+        margin-top: 30px;
+    }
+    
+}
+@media (max-width:375px){
+    .message_div{
+        width: 340px !important;
+        height: 340px !important;
+    }
+    .path_msg_link pre{
+        font-size: 12px !important;
+    }
+}
